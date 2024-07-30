@@ -37,8 +37,6 @@ function verificarIntento()
 
 function generarNumeroSecreto(params) 
 {
-    console.log(numeroGenerado);
-    console.log(listaNumerosSorteados);
     if(listaNumerosSorteados.length==numeroMaximo)
     {
         asignarTextoElemento('p','Ya se sortearon todos los numeros posibles');
